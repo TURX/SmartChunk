@@ -1,0 +1,14 @@
+n_docs: 2681468
+n_docs_sampled: 10000
+n_tokens_sum: 755372
+n_tokens_avg: 75.5372
+n_tokens_median: 65.0
+n_tokens_std: 57.36653648348322
+n_tokens_lower_quartile: 33.0
+n_tokens_upper_quartile: 104.0
+n_sents_sum: 32652
+n_sents_avg: 3.2652
+n_sents_median: 3.0
+n_sents_std: 2.3752964369350473
+n_sents_lower_quartile: 1.0
+n_sents_upper_quartile: 4.0
