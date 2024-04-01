@@ -1,0 +1,21 @@
+Note: Top-l is implemented in another wrong way
+
+Running experiments at Sun Feb  4 06:43:04 PM CST 2024
+QA-QA
+Arguments: Namespace(chunker="functools.partial(chunker.cluster_chunker, k=3, mode='k-preserve')", topl=100)
+Results:  {'exact_match': 0.5142}
+QA-QA
+Arguments: Namespace(chunker="functools.partial(chunker.cluster_chunker, k=3, mode='k-preserve')", topl=500)
+Results:  {'exact_match': 0.5812}
+QA-QA
+Arguments: Namespace(chunker='functools.partial(chunker.arbitrary_chunker, k=100)', topl=100)
+Results:  {'exact_match': 0.5405}
+QA-QA
+Arguments: Namespace(chunker='functools.partial(chunker.arbitrary_chunker, k=100)', topl=500)
+Results:  {'exact_match': 0.5777}
+QA-QA
+Arguments: Namespace(chunker='functools.partial(chunker.sent_cont_chunker, k=1)', topl=100)
+Results:  {'exact_match': 0.5544}
+QA-QA
+Arguments: Namespace(chunker='functools.partial(chunker.sent_cont_chunker, k=1)', topl=500)
+Results:  {'exact_match': 0.5689}
